@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var N = 12;\nexport var SQUARE_SIZE = 12;","map":{"version":3,"sources":["/workspace/rn-loaders/src/constants.ts"],"names":["N","SQUARE_SIZE"],"mappings":"AAAA,OAAO,IAAMA,CAAC,GAAE,EAAT;AACP,OAAO,IAAMC,WAAW,GAAG,EAApB","sourcesContent":["export const N =12 ;\nexport const SQUARE_SIZE = 12"]},"metadata":{},"sourceType":"module"}

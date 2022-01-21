@@ -1,1 +1,1 @@
-# gitpod-rn
+# https://github.com/chlbri/rn-loaders.git

@@ -1,0 +1,45 @@
+{
+  "name": "rn-loaders",
+  "version": "0.0.1",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "start-tunnel": "yarn run start --tunnel",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "expo:login": "npx expo login --non-interactive -u chlbri",
+    "expo:publish": "yarn run expo:login && npx expo publish --non-interactive",
+    "eject": "expo eject",
+    "prettier": "prettier --write App.tsx \"**/*.{ts,tsx}\"",
+    "eslint": "eslint \"{src/**/*,App}.{ts,tsx}\"",
+    "eslint-fix": "yarn run eslint -- --fix"
+  },
+  "dependencies": {
+    "expo": "~44.0.0",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-redash": "^16.2.3",
+    "react-native-web": "0.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~17.0.21",
+    "@types/react-native": "~0.64.12",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "edit-json-file": "^1.7.0",
+    "eslint": "^8.7.0",
+    "jest-cucumber": "^3.0.1",
+    "prettier": "^2.5.1",
+    "shelljs": "^0.8.5",
+    "typescript": "^4.5.5"
+  },
+  "private": true,
+  "author": "chlbri <chlbri.blac@gmail.com>",
+  "repository": "https://github.com/chlbri/rn-loaders.git"
+}

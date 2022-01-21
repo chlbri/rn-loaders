@@ -1,6 +1,6 @@
 FILE=$(basename $(git rev-parse --show-toplevel))
 
-npm install -g expo-cli ts-node
+npm install -g expo-cli ts-node @expo/ngrok
 shopt -s dotglob
 expo init $FILE -t expo-template-blank-typescript
 cd $FILE
