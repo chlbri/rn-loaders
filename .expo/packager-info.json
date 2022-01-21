@@ -1,6 +1,6 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
+  "expoServerPort": null,
   "packagerPort": 19000,
   "expoServerNgrokUrl": "https://yh-maz.anonymous.rn-loaders.exp.direct",
   "packagerNgrokUrl": "https://packager.yh-maz.anonymous.rn-loaders.exp.direct",
