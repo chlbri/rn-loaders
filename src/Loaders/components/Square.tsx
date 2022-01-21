@@ -27,7 +27,7 @@ const Square: FC<Props> = ({ index, progress }) => {
     if (rotate.value === finalAngle) return withSpring(-N * SQUARE_SIZE);
     if (progress.value > 2 * Math.PI)
       return withTiming((index - N) * SQUARE_SIZE);
-    return withTiming(-index * SQUARE_SIZE);
+    return withSpring(-index * SQUARE_SIZE);
   }, []);
 
   const rStyle = useAnimatedStyle(() => {
