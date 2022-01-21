@@ -13,7 +13,7 @@ const ClockLoader: FC = () => {
 
   useEffect(() => {
     progress.value = withRepeat(
-      withTiming(2 * Math.PI, {
+      withTiming(4 * Math.PI, {
         duration: 8000,
         easing: Easing.linear,
       }),
