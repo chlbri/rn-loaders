@@ -9,6 +9,8 @@ tasks:
       node .gitpod-config/bash.js
       yarn run prettier
       gp sync-done build
+    before: npm install -g ts-node expo-cli @expo/ngrok
+    command: npm install -g ts-node expo-cli @expo/ngrok
 
   - name: Creation of branches
     init: |
